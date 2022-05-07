@@ -3,13 +3,14 @@
   :root{
     --primary: black;
     --secondary: #fff;
-    --bg: url("https://telegra.ph/file/59ce4d4f7fb61703c534e.jpg");
+    --bg: url("https://cutewallpaper.org/22/devops-wallpapers/321928638.jpg");
     --icons: #c4c4c4;
     --i-hover: #4facfe;
     --menu:#4facfe;
     --con: linear-gradient(to top, #00f2fe, #4facfe);
     --border: 4px solid #00f2fe;
     --btn-color: linear-gradient(to right, #4facfe 0%, #00f2fe 140%);
+    
   }
   
   *{
