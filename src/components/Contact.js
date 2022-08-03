@@ -48,16 +48,12 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
-              }
-            </TrackVisibility>
+                <img className="animate__animated animate__zoomIn" src={contactImg} alt="Contact Us"/>
+
           </Col>
           <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+
+                <div className="animate__animated animate__fadeIn">
                 <h2>Get In Touch</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
@@ -85,8 +81,7 @@ export const Contact = () => {
                     }
                   </Row>
                 </form>
-              </div>}
-            </TrackVisibility>
+              </div>
           </Col>
         </Row>
       </Container>

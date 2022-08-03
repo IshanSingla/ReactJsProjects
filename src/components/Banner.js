@@ -57,38 +57,28 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
+            <div className="animate__animated animate__fadeIn">
+              <span className="tagline">Welcome to my Portfolio</span>
+              <h1>
+                Hi! I'm Ishan Singla
+                <br />
+                <span
+                  className="txt-rotate"
+                  data-rotate='[ "Web Designer", "Bot Making", "AI/ML Devloper", "Logo Making", ]'
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>
-                    Hi! I'm Ishan Singla
-                    <br />{" "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="50"
-                      data-rotate='[ "Web Designer", "Bot Making", "AI/ML Devloper", "Logo Making", ]'
-                    >
-                      <span className="wrap">{text}</span>
-                    </span>
-                  </h1>
-                  <p>
-                    I am pursuing B.E CSE from Chitkara University,Chandigarh.I
-                    am currently polishing my skills related to Javascript,
-                    Node.js, Python, AI/ML and Flutter. If you need to
-                    collaborate in any of the projects plz feel free to contact
-                    me.
-                  </p>
-                  <button>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
-                </div>
-              )}
-            </TrackVisibility>
+                  <span className="wrap">{text}</span>
+                </span>
+              </h1>
+              <p>
+                I am pursuing B.E CSE from Chitkara University,Chandigarh.I am
+                currently polishing my skills related to Javascript, Node.js,
+                Python, AI/ML and Flutter. If you need to collaborate in any of
+                the projects plz feel free to contact me.
+              </p>
+              <button>
+                Let’s Connect <ArrowRightCircle size={25} />
+              </button>
+            </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className="animate__animated animate__zoomIn">

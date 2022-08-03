@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import colorSharp from "../assets/img/color-sharp.png"
 
 export const Projects = () => {
   const projects = [
@@ -60,6 +61,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
 };
