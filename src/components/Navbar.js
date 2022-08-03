@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-export const Nav = () => {
+export const NavIshan = () => {
   const [activeLink, setActiveLink] = useState("home");
 
 

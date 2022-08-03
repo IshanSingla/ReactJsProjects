@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav } from './components/navbar';
+import { NavIshan } from './components/navbar';
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <NavIshan />
       <Banner />
       <Skills />
       <Projects />
