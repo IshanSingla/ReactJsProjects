@@ -1,19 +1,4 @@
-/************ Custom Font ************/
-@font-face {
-  font-family: Centra;
-  src: url("./assets/font/CentraNo2-Bold.ttf");
-  font-weight: 700;
-}
-@font-face {
-  font-family: Centra;
-  src: url("./assets/font/CentraNo2-Medium.ttf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Centra;
-  src: url("./assets/font/CentraNo2-Book.ttf");
-  font-weight: 400;
-}
+
 
 /************ Default Css ************/
 * {
@@ -246,7 +231,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url("./assets/img/banner-bg.png");
+  background-image: url("./assets/banner-bg.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -561,7 +546,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url("./assets/img/footer-bg.png");
+  background-image: url("./assets/footer-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
